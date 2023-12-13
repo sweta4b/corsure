@@ -56,6 +56,11 @@ body{
   border-radius: 80px;
 }
 
+.Iconholder:hover, .User-profile:hover{
+  cursor: pointer;
+  border: 1px solid #9c27b0;
+}
+
 .Usericon{
   display: flex;
   gap: 20px;
@@ -85,6 +90,11 @@ body{
 
 .Navlist li svg {
   margin-right: 8px;
+}
+
+.Navlist li:hover{
+  color: #9c27b0;
+  cursor: pointer;
 }
 
 .Navlink{

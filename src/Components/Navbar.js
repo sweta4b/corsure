@@ -27,7 +27,7 @@ function Navbar() {
             </div>
             <div className='Vertical-line'></div>
             <div className='Usericon'>
-                <Avatar src={user.profileUrl}/>
+                <Avatar src={user.profileUrl} className="User-profile"/>
                 <p>{user.userFirstName} {user.userLastName} </p>
             </div>
         </div>
